@@ -119,6 +119,7 @@ body{
 
 /* main */
 
+/* first section */
 .bar{
   position:relative;
   width:100%;
@@ -137,4 +138,53 @@ body{
 .text p{
   color: #858585;
   margin-top: 10px;
+}
+
+/* /first section */
+
+/* second section */
+
+.info{
+  height: 400px;
+  width: 100%;
+}
+
+.container{
+  width:33.3%;
+}
+
+
+
+.container img{
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container h2{
+  text-align:center;
+  color: #86C016;
+  margin-bottom: 30px;
+}
+
+.container hr{
+  display: block;
+  margin: auto;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.container p{
+  text-align:center;
+  color: #969696;
+  padding: 0 20%;
+}
+
+.info2{
+  margin-top: 80px;
+}
+.info3{
+  margin-top: 20px;
 }
