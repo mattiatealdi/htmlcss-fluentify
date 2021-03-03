@@ -90,7 +90,7 @@ body{
 
 .nav-item.btn{
   border: 1px solid white;
-  padding: 10px 40px;
+  padding: 15px 40px;
   border-radius: 10px;
 }
 
@@ -115,4 +115,26 @@ body{
 .nav-item.btn-large{
   padding: 30px 30px;
   border-radius: 10px;
+}
+
+/* main */
+
+.bar{
+  position:relative;
+  width:100%;
+  background: #CCCCCE;
+  height:200px;
+}
+
+.text{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text p{
+  color: #858585;
+  margin-top: 10px;
 }
