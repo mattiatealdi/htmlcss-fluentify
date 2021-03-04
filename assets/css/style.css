@@ -8,7 +8,6 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-
 }
 
 .clearfix::after{
@@ -202,12 +201,14 @@ body{
 }
 
 .mountain img{
-  width: 60%;
+  width: 50%;
 }
 
 .text-mountain{
   float: right;
-  width: 30%;
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 10%;
 }
 
 .mountain p{
@@ -235,7 +236,7 @@ body{
 
 /* parte right del footer */ 
 
-.footer-right{
+.piano-right{
   display: inline-block;
   line-height: 200px;
   color:#848484;
@@ -251,11 +252,11 @@ body{
   display: inline;
 }
 
-.footer-right .sono{
+.piano-right .sono{
   padding-right: 30px;
 }
 
-.footer-right .btn-green .btn-large{
+.piano-right .btn-green .btn-large{
   margin-left: 100px;
 }
 
@@ -263,6 +264,85 @@ body{
   padding-left: 100px;
 }
 
-.footer-right .nav-item.btn-green.btn-large{
+.piano-right .nav-item.btn-green.btn-large{
   margin-left: 40px;
 }
+
+/* scopri */
+
+.scopri{
+  width: 100%;
+  padding: 0 10%;
+  margin-top: 50px;
+}
+
+.scopri img{
+  width: 50%;
+}
+
+.text-scopri{
+  width: 50%;
+  padding-top: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.text-scopri h2{
+  font-size: 1.5rem;
+}
+
+.text-scopri p{
+  color: #858585;
+  text-transform: uppercase;
+}
+
+.scopri-btn{
+  background-color: #7CBB04;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  width:50px;
+  height: 100px;
+}
+
+/* ci trovi */
+
+.ci-trovi{
+  width: 100%;
+  padding: 0 10%;
+  height: 600px;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.ci-trovi img{
+  width: 50%
+}
+
+.ci-trovi h2{
+  margin-bottom: 10px;
+}
+.ci-trovi p{
+  color:#858585;
+}
+.ci-trovi p:first-of-type{
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.ci-trovi p:last-of-type{
+  margin-bottom:15px;
+}
+
+.ci-trovi h2 span{
+  color: #7CBB04;
+}
+
+.ci-trovi a{
+  color: #5586BC;
+}
+
+/* info2 */
+
