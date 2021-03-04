@@ -20,6 +20,10 @@ body{
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 /* header */
 
 .header-container{
@@ -145,8 +149,9 @@ body{
 /* second section */
 
 .info{
-  height: 400px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 .container{
@@ -183,8 +188,81 @@ body{
 }
 
 .info2{
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .info3{
   margin-top: 20px;
+}
+
+/* third section */
+
+.mountain{
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.mountain img{
+  width: 60%;
+}
+
+.text-mountain{
+  float: right;
+  width: 30%;
+}
+
+.mountain p{
+  color: #858585;
+}
+
+.mountain a{
+  color:#5586BC;
+}
+
+/* footer */
+
+.piano{
+  background-color: #D3D3D3;
+  height: 200px;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.piano h2{
+  font-size: 2em;
+  line-height: 200px;
+  display: inline-block;
+}
+
+.footer-right{
+  display: inline-block;
+  line-height: 200px;
+  color:#848484;
+}
+
+.seleziona{
+  border-bottom: 1px solid #848484;
+  display: inline;
+  font-size: 1.2em;
+}
+
+.sono{
+  display: inline;
+}
+
+.footer-right .sono{
+  padding-right: 30px;
+}
+
+.footer-right .btn-green .btn-large{
+  margin-left: 100px;
+}
+
+.seleziona i{
+  padding-left: 100px;
+}
+
+.footer-right .nav-item.btn-green.btn-large{
+  margin-left: 40px;
 }
