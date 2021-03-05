@@ -191,6 +191,13 @@ body{
   margin-top: 20px;
 }
 
+#riga{
+  display: block;
+  margin: auto;
+  width: 96%;
+  margin-bottom: 30px;
+}
+
 /* third section */
 
 .mountain{
@@ -439,4 +446,19 @@ body{
 
 .studente p{
   line-height: 25px;
+}
+
+.help{
+  position:fixed;
+  bottom: 0;
+  right: 15%;
+  width: 70px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #7CBB04;
+  height: 60px;
+  border-radius: 10px 10px 0 0;
+  line-height: 60px;
+  text-align: center;
+  font-size: 0.8em;
 }
