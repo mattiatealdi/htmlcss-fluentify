@@ -167,8 +167,8 @@ body{
 .container h2{
   text-align:center;
   color: #86C016;
-  margin-bottom: 50px;
-  line-height: 10%;
+  margin-bottom: 10px;
+  min-height: 70px;
 }
 
 .container hr{
@@ -388,7 +388,7 @@ body{
 /* info5 */
 
 .info5{
-  padding: 0 10%;
+  padding: 0 20%;
   width: 100%;
   background-color: red;
   height: 700px;
@@ -410,19 +410,33 @@ body{
   border: 1px solid black;
   width: 33%;
   height: 100%;
+  padding-right: 5%;
 }
 
 
 .studente img{
   width: 20%;
+  margin-bottom: 20px;
 }
 .professionista img{
   width: 20%;
+  margin-bottom: 20px;
 }
 .azienda img{
   width: 20%;
+  margin-bottom: 20px;
 }
 
 .studente h2{
-  font-stretch: extra-expanded;
+  font-size: 2rem;
+  margin-bottom:20px;
+}
+
+.professionista h2{
+  font-size: 2em;
+}
+
+
+.studente p{
+  line-height: 25px;
 }
