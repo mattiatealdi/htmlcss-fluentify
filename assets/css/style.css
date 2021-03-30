@@ -397,8 +397,7 @@ body{
 .info5{
   padding: 0 20%;
   width: 100%;
-  background-color: red;
-  height: 700px;
+  margin-bottom: 80px;
 }
 
 .info5 .title-str h2{
@@ -407,14 +406,12 @@ body{
 }
 
 .chi{
-  background-color: blue;
   height: 60%;
   margin-top: 5%;
 }
 
 .studente, .professionista, .azienda{
-  background: orchid;
-  border: 1px solid black;
+
   width: 33%;
   height: 100%;
   padding-right: 5%;
@@ -426,26 +423,116 @@ body{
   margin-bottom: 20px;
 }
 .professionista img{
-  width: 20%;
+  width: 18%;
   margin-bottom: 20px;
 }
 .azienda img{
-  width: 20%;
+  width: 15%;
   margin-bottom: 20px;
 }
 
 .studente h2{
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin-bottom:20px;
 }
 
 .professionista h2{
-  font-size: 2em;
+  font-size: 1.3em;
+  margin-bottom: 20px;
 }
 
+.azienda h2{
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
 
-.studente p{
+.studente p, .professionista p, .azienda p{
   line-height: 25px;
+  color: #AFB0A8;
+  margin-bottom :20px;
+}
+
+.line{
+  width: 100%;
+  height: 10px;
+  margin-bottom: 40px;
+}
+
+.line.lightblue{
+  background-color: #A0C7E6;
+}
+
+.line.orange{
+  background-color: #FDA600;
+}
+
+.line.green{
+  background-color: #7FB804;
+}
+
+.studente a{
+  color: #A0C7E6;
+} 
+.professionista a{
+  color: #FDA600;
+} 
+.azienda a{
+  color:  #7FB804;
+}
+
+.info6{
+  background-color:#0C325A;
+  width: 100%;
+  height: 150px;
+  padding: 0 10%;
+}
+
+.info6_text{
+  padding-top: 40px;
+  line-height: 40px;
+}
+.info6 .info6_text h2 span{
+  color:#FDA600;
+}
+.info6 .info6_text p{
+  color: gray;
+}
+
+.info6 h2{
+  color: white;
+}
+
+footer{
+  width: 100%;
+  padding: 0 10%;
+  height: 300px;
+  background-color: #17416B;
+}
+
+footer .footer_info_left h5{
+  padding-top: 40px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+footer .footer_info_left ul li{
+  list-style-type: none;
+  padding-top: 15px;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+footer .footer_info_right h4{
+  color: white;
+  font-size: 1.3rem;
+  padding-top: 40px;
+}
+footer .footer_info_right p:first-of-type{
+  padding-top: 40px;
+}
+
+footer .footer_info_right p{
+  color: gray;
 }
 
 .help{
